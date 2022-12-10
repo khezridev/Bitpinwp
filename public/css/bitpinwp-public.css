@@ -1,0 +1,47 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* ********** */
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/woff2/IRANSans-FN.woff2');
+}
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/woff2/IRANSans-FN_Bold.woff2');
+}
+
+#bitpinwp_tbl_markets *{
+    font-family: 'iransans' !important;
+}
+
+#bitpinwp_tbl_markets tr, #bitpinwp_tbl_markets th {
+    text-align: right;
+}
+
+#bitpinwp_tbl_markets th {
+    font-weight: 600 !important;
+}
+span.short-name {
+    font-size: 13px;
+    background: #eee;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #888;
+}
+
+.bitpinwp-text {
+    color:#000 !important;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 13px 15px;
+    border: none;
+}
